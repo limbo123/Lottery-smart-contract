@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'secret spell ring maple glad coach come aisle armed slogan print barely',
-  'https://rinkeby.infura.io/v3/371756b52f6147feaf3eee8b1d892800'
+  // metamask mnemonics, 
+  // infura project link
 );
 const web3 = new Web3(provider);
 
